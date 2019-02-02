@@ -1,0 +1,38 @@
+body{
+  
+  }
+#im{
+  height:500px;
+  width:100%;
+}
+
+h1{
+  font-family: cursive;
+  font-style:italic;
+  text-align: center;
+  font-size: 40px;
+margin-top:45px;
+  color: black;
+background-image: url(../images/color.jpg);
+position: relative;
+-webkit-animation-name: care; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+animation-name: care;
+animation-duration: 5s;
+animation-delay: 2s;
+}
+
+@-webkit-keyframes care {
+    0%   { left:0px; top:0px;}
+    25%  { left:80px; top:0px;}
+    50%  { left:80px; top:80px;}
+    75%  { left:0px; top:80px;}
+    100% { left:0px; top:0px;}
+}
+
+
+#para{
+  font-size: 30px;
+  color: white;
+}

@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+background-image: url("../images/index.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+font-family: sans-serif;
+}
+.container{
+  margin-top: 50px;
+  margin-left: 35%;
+
+}
+.panel{
+  position: absolute;
+ background: rgba(0,0,0,0.3);
+ border:0px;
+ color:#ffff;
+width: 350px;
+height: 340px;
+text-align: center;
+padding-top:50px;
+
+}
+
+
+.user{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+overflow: hidden;
+position: absolute;
+  top:calc(-100px/2);
+  left:calc(50% - 50px);
+}
+h2{
+  margin: 0;
+  padding: 0;
+  color:#efed40;
+
+}
+
+.form-group p{
+  margin: 0;
+  padding-left: 55px;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  color:#ffff;
+}
+
+.form-group input {
+  width: 70%;
+  margin-bottom: 5px;
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="password"]
+{
+border: none;
+border-bottom:1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color:#fff;
+font-size: 16px;
+}
+
+::placeholder{
+  color:rgba(255, 255, 255, 0.5);
+}
+
+.two{
+  border: none;
+  outline: none;
+  height: 40px;
+  color:#fff;
+  font-size: 16px;
+  background: #ff267e;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+
+.message a{
+  color:#efed40;
+}
+
+
+.two:hover
+{
+  background: #efed40;
+  color:#262626;
+}

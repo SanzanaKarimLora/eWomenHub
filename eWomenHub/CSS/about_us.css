@@ -1,0 +1,41 @@
+body{
+	color:rgb(255,255,255);
+	background:url("../image/skin.jpg");
+	background-size:cover;
+	margin:0;
+	padding:0;
+	
+}
+
+h1{
+	animation:h1 1s step-start infinite;
+}
+@keyframes h1{
+	0%{
+		color:rgb(250,0,0);
+	}
+	25%{
+		color:rgb(0,0,250);
+	}
+	100%{
+		color:rgb(250,0,0);
+	}
+}
+
+p{
+	color:rgb(0,0,0);
+	font-size:20px;
+	padding:20px;
+	margin:20px;
+}
+
+.col-md-6 img{
+	width:45%;
+	height:auto;
+}
+
+h3{
+	color:rgb(0,0,255);
+	margin-top:20px;
+}
+

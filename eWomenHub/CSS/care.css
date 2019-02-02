@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* background-image: url("../images/ck.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  */
+}
+
+#an h1{
+  font-family: cursive;
+  font-style:italic;
+  text-align: center;
+  font-size: 40px;
+margin-top:50px;
+  transform: translate(-31%,-31%);
+  color: black;
+background-image: url(../images/color.jpg);
+position: relative;
+-webkit-animation-name: care; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+animation-name: care;
+animation-duration: 4s;
+animation-delay: 2s;
+}
+
+#logo{
+  margin-left: 55px;
+  height:170px;
+  width:170px;
+
+}
+#img{
+  height:300px;
+  width:100%;
+}
+
+@-webkit-keyframes care {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
+
+
+
+.snacks{
+  height:50%;
+  width:100%;
+}

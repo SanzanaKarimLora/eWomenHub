@@ -1,0 +1,39 @@
+div h1{
+	color:rgb(255,255,255);
+}
+
+div h2{
+	color:rgb(255,255,255);
+}
+
+body{
+	background:url("../image/bg.jpg");
+	background-size:cover;
+	
+}
+
+address{
+	font-size:16px;
+	color:rgb(255,255,255);
+}
+
+p{
+	font-size:16px;
+	color:rgb(240,240,240);
+}
+
+hr{
+	background:rgb(241,100,255);
+}
+
+.conatct-form{
+	background:rgba(0,0,0,.6);
+	margin-top:100px;
+	padding:20px;
+	box-shadow:0px 0px 10px 3px red;
+}
+
+label{
+	font-size:20px;
+	color:rgb(255,255,255);
+}

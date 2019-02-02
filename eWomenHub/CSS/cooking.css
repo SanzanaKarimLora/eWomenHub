@@ -1,0 +1,52 @@
+  body{
+    margin: 0;
+    padding: 0;
+ /*  background-image: url("../images/ck.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  */
+  }
+
+  #logo{
+    height:200px;
+    width:200px;
+
+  }
+  #img{
+    height:300px;
+    width:100%;
+  }
+
+#ani h1{
+  font-family: cursive;
+  font-style:italic;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 45px;
+  transform: translate(-30%,-30%);
+  color:black;
+  background-image: url(../images/color.jpg);
+  position: relative;
+  -webkit-animation-name: cooking; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: cooking;
+  animation-duration: 4s;
+  animation-delay: 2s;
+
+}
+@-webkit-keyframes cooking {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
+
+.snacks{
+  height:200px;
+  width:200px;
+
+}
